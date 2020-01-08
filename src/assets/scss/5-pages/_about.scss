@@ -1,0 +1,141 @@
+.about_cite{
+    font-size: 0.9375rem;
+    color: $primaryColor;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    margin-bottom: 0.3125rem;
+}
+
+.about_spoke{
+    font-size: 0.875rem;
+    color: $whiteColor;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+}
+
+.about_mainimg{
+    margin-bottom: 3.125rem;
+
+    .aboutimg_wrapper{
+        &:first-child{
+            display: none;
+        }
+    }
+}
+
+.twoin_section, .vision_qoute{
+    padding-top: 6.25rem;
+}
+
+.twoin_title, .about_company_title{
+    font-weight: 600;
+}
+
+.history_section{
+    border-bottom: 0.0625rem solid $borderColor;
+
+    .history_title{
+        margin-bottom: 1.875rem;
+    }
+    
+    .history_img_wrapper{
+        margin-top: 1.875rem;
+    }
+
+    .timeline_title{
+        font-size: 1.5625rem;
+        line-height: 2.125rem;
+        font-weight: 600;
+    }
+
+    .carousel_about{
+        .owl-dots{
+            margin-top: 25px;
+            .owl-dot{
+                span{
+                    border-radius: 0;
+                    background: #3D3D3D;
+                    width: 2.8125rem;
+                    height: 0.1875rem;
+                }
+            }
+        }
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span{
+        background: $primaryColor;
+    }
+
+}
+
+
+@media screen and (min-width: 768px){
+    .history_img_wrapper{
+        margin-top: 0rem;
+    }
+
+    .about_mainimg{
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .twoin_section, .vision_qoute{
+        padding-top: 12.5rem;
+    }
+
+    .twoin_title{
+        width: 78%;
+    }
+
+    .history_section{
+        padding-bottom: 150px;
+        .timeline_title{
+            font-size: 1.875rem;
+            line-height: 2.5rem;
+        }
+
+        .carousel_about{
+            .owl-theme .owl-nav.disabled + .owl-dots{
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .about_mainimg{    
+        .aboutimg_wrapper{
+            &:first-child{
+                position: relative;
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+            }
+            &:last-child{
+                position: absolute;
+                top: auto;
+                right: auto;
+                bottom: -30%;
+                left: 0.9375rem;
+            }
+        }
+    }
+
+    .twoin_section{
+        padding-top: 21.875rem;
+    }
+
+    .twoin_title{
+        width: 65%;
+    }
+
+    .history_title{
+        margin-bottom: 5rem;
+    }
+}
