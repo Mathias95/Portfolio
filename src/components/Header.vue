@@ -15,17 +15,17 @@
       </header>
       <b-navbar toggleable="lg" type="dark" class="main_bar">
          <b-navbar-brand href="/">
-          <img class="header_logo" src="/assets/img/theep-logo.PNG" alt="">
+          <img class="header_logo" src="../assets/img/theep-logo.png" alt="">
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-text-collapse" is-nav>
           <b-navbar-nav class="ml-auto menu-items">
-            <b-nav-item> <router-link to="/">Profile</router-link></b-nav-item>
-            <b-nav-item> <router-link to="#Skills">Skills</router-link></b-nav-item>
-            <b-nav-item> <router-link to="#Portfolio">Portfolio</router-link></b-nav-item>
-            <b-nav-item> <router-link to="#Contact">Contact</router-link></b-nav-item>
+            <b-nav-item> <router-link to v-scroll-to="'/'">Profile</router-link></b-nav-item>
+            <b-nav-item> <router-link to v-scroll-to="'#Skills'">Skills</router-link></b-nav-item>
+            <b-nav-item> <router-link to v-scroll-to="'#Portfolio'">Portfolio</router-link></b-nav-item>
+            <b-nav-item> <router-link to v-scroll-to="'#Contact'">Contact</router-link></b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>

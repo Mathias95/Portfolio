@@ -68,3 +68,13 @@ h1 {
 	font-size: 20px;
 	opacity: 0.8;
 }
+@media screen and (min-width: 1200px){
+	.section {
+		min-height: 1000px;
+		position: relative;
+		text-align: center;
+		font-family: sans-serif, arial;
+		margin: 0;
+	}
+
+    }

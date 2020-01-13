@@ -29,11 +29,3 @@
 </div>
 
 </template>
-
-<script src="assets/js/slideNav.js" type="text/javascript"></script>
-
-// <script>
-// window.slide = new SlideNav({
-// changeHash:true
-// });
-// </script>

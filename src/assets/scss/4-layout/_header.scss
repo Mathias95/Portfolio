@@ -70,12 +70,20 @@
       border-bottom: none;
     }
   }
+  .header_logo{
+    width: 50px;
+
+  }
   
   @media screen and (min-width: 768px){
   
     .main_bar, .top_bar{
       padding-left: 5%;
       padding-right: 5%;
+    }
+    .header_logo{
+      width: 60px;
+  
     }
   }
   
@@ -108,12 +116,20 @@
       padding-right: 0rem;
       padding-bottom: 0.1875rem;
     }
+    .header_logo{
+      width: 80px;
+  
+    }
   }
   
   @media screen and (min-width: 1200px){
     .nav-item {
       margin-left: 1.5625rem;
       margin-right: 1.5625rem;
+    }
+    .header_logo{
+      width: 100px;
+  
     }
   }
   
