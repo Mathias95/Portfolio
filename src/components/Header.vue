@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="navbar-wrapper">
-      <header>
+      <!-- <header>
         <div class="container-fluid top_bar">
           <div class="row">
             <div class="col">
@@ -12,8 +12,8 @@
             </div>
           </div>
         </div>
-      </header>
-      <b-navbar toggleable="lg" type="dark" class="main_bar">
+      </header> -->
+      <b-navbar toggleable="lg" type="dark" class="main_bar" id="main_bar" fixed="top">
          <b-navbar-brand href="/">
           <img class="header_logo" src="../assets/img/theep-logo.png" alt="">
         </b-navbar-brand>
@@ -22,7 +22,7 @@
 
         <b-collapse id="nav-text-collapse" is-nav>
           <b-navbar-nav class="ml-auto menu-items">
-            <b-nav-item> <router-link to v-scroll-to="'/'">Profile</router-link></b-nav-item>
+            <b-nav-item> <router-link to v-scroll-to="'#Profile'">Profile</router-link></b-nav-item>
             <b-nav-item> <router-link to v-scroll-to="'#Skills'">Skills</router-link></b-nav-item>
             <b-nav-item> <router-link to v-scroll-to="'#Portfolio'">Portfolio</router-link></b-nav-item>
             <b-nav-item> <router-link to v-scroll-to="'#Contact'">Contact</router-link></b-nav-item>
@@ -38,3 +38,17 @@ export default {
   name: 'Header'
 }
 </script>
+// <script>
+// window.onscroll = function() {myfunction()};
+
+// var navbar = document.getelementbyid("main_bar");
+// var sticky = navbar.offsettop;
+
+// function myfunction() {
+//   if (window.pageyoffset >= sticky) {
+//     navbar.classlist.add("sticky")
+//   } else {
+//     navbar.classlist.remove("sticky");
+//   }
+// }
+// </script>
