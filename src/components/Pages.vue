@@ -1,12 +1,12 @@
 <template>
 <div>
     <div class="section-slider">
-    <ul>
-        <li><a href="#Profile">01</a></li>
-        <li><a href="#Skills">02</a></li>
-        <li><a href="#Portfolio">03</a></li>
-        <li><a href="#Contact">04</a></li>
-    </ul>
+    <b-navbar-nav class="slider-nav">
+        <b-nav-item><router-link to v-scroll-to="'#Profile'">01</router-link></b-nav-item>
+        <b-nav-item><router-link to v-scroll-to="'#Skills'">02</router-link></b-nav-item>
+        <b-nav-item><router-link to v-scroll-to="'#Portfolio'">03</router-link></b-nav-item>
+        <b-nav-item><router-link to v-scroll-to="'#Contact'">04</router-link></b-nav-item>
+    </b-navbar-nav>
 </div>
   <div id="Profile" class="section">
         <div class="text-wr">

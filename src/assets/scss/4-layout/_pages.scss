@@ -14,18 +14,18 @@ body, html {
 
 .section-slider {
     height: 100vh;
-    display: table;
     width: 2.8125rem;
     position: fixed;
     top: 300px;
-    right: 2%;
+    right: 2.5%;
 	z-index: 1000;
-	scroll-behavior: auto;
-	overflow-x: scroll;
-	display: flex;
+	text-decoration: none;
 	
-	.ul {
-		list-style-type: none;
+	:hover{
+		transform: scale(1.15);
+		color: #000;
+		text-decoration-line : line-through;
+
 	}
 
 	
@@ -51,23 +51,23 @@ h1, p {
 }
 
 #Profile {
-	background: #5c53aa;
+	background: $primaryColor;
     color: #8d86c3;
 	//margin-top: 6.9%;
 }
 
 #Skills {
-	background: #4bbfc3;
+	background: $primaryColor;
 	color: #81d2d5;
 }
 
 #Portfolio {
-	background: #283044;
+	background: $primaryColor;
 	color: #686e7c;
 }
 
 #Contact {
-	background: #ebf5ee;
+	background:$primaryColor;
 	color: #aeb9b9;
 }
 
