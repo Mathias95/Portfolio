@@ -12,6 +12,27 @@ body, html {
 	margin: 0;
 }
 
+.section-slider {
+    height: 100vh;
+    display: table;
+    width: 2.8125rem;
+    position: fixed;
+    top: 300px;
+    right: 2%;
+	z-index: 1000;
+	scroll-behavior: auto;
+	overflow-x: scroll;
+	display: flex;
+	
+	.ul {
+		list-style-type: none;
+	}
+
+	
+
+	
+}
+
 h1, p {
 	margin: 0;
 	font-family: sans-serif, arial;
