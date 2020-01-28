@@ -46,10 +46,12 @@
   padding: 0;
 }
 
+
 .router-link-exact-active{
+  border-bottom: 0.09375rem  solid red !important;
   padding-bottom: 0.09375rem;
   padding-top: 0.09375rem;
-  color: red !important;
+  //color: red !important;
 }
 
     
@@ -64,6 +66,7 @@
 .navbar-dark .navbar-nav .nav-link{
   display: inline-block;
   padding: 0;
+  color:$darkGreyColor;
   :hover{
     text-decoration: none;
     

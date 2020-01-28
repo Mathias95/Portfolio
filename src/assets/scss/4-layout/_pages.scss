@@ -10,6 +10,7 @@ body, html {
 	text-align: center;
 	font-family: sans-serif, arial;
 	margin: 0;
+	color:$darkGreyColor;
 }
 
 .section-slider {
@@ -20,7 +21,7 @@ body, html {
     right: 2.5%;
 	z-index: 1000;
 	text-decoration: none;
-	
+	color:$darkGreyColor;
 	:hover{
 		transform: scale(1.15);
 		color: #000;
