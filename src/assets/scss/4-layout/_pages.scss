@@ -27,6 +27,11 @@ body, html {
 	}
 }
 
+.slider-nav{
+	display: flex;
+	flex-direction: column;
+}
+
 .slider-link{
 	color: white;
 	margin-bottom: 20px;
