@@ -47,13 +47,9 @@
 }
 
 .router-link-exact-active{
-  border-bottom: 0.09375rem  solid red !important;
   padding-bottom: 0.09375rem;
   padding-top: 0.09375rem;
-  color: white !important;
- 
-  
-
+  color: red !important;
 }
 
     
@@ -66,7 +62,6 @@
 // }
 
 .navbar-dark .navbar-nav .nav-link{
-  color: #e3e3e3;
   display: inline-block;
   padding: 0;
   :hover{
