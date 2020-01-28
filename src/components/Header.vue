@@ -13,19 +13,35 @@
           </div>
         </div>
       </header> -->
-      <b-navbar toggleable="lg" type="dark" class="main_bar" id="main_bar" fixed="top">
-         <b-navbar-brand href="/">
-          <img class="header_logo" src="../assets/img/theep-logo-1.jpg" alt="">
+      <b-navbar
+        toggleable="lg"
+        type="dark"
+        class="main_bar"
+        id="main_bar"
+        fixed="top"
+      >
+        <b-navbar-brand to="/">
+          <img
+            class="header_logo"
+            src="../assets/img/theep-logo-1.jpg"
+            alt=""
+          />
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-text-collapse" is-nav>
           <b-navbar-nav class="ml-auto menu-items">
-            <b-nav-item> <router-link to v-scroll-to="'#Profile'">Profile</router-link></b-nav-item>
-            <b-nav-item> <router-link to v-scroll-to="'#Skills'">Skills</router-link></b-nav-item>
-            <b-nav-item> <router-link to v-scroll-to="'#Portfolio'">Portfolio</router-link></b-nav-item>
-            <b-nav-item> <router-link to v-scroll-to="'#Contact'">Contact</router-link></b-nav-item>
+            <b-nav-item to="#Profile" v-scroll-to="'#Profile'"
+              >Profile</b-nav-item
+            >
+            <b-nav-item to="#Skills" v-scroll-to="'#Skills'">Skills</b-nav-item>
+            <b-nav-item to="#Portfolio" v-scroll-to="'#Portfolio'"
+              >Portfolio</b-nav-item
+            >
+            <b-nav-item to="#Contact" v-scroll-to="'#Contact'"
+              >Contact</b-nav-item
+            >
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
@@ -38,7 +54,8 @@ export default {
   name: 'Header'
 }
 </script>
-// <script>
+//
+<script>
 // window.onscroll = function() {myfunction()};
 
 // var navbar = document.getelementbyid("main_bar");
@@ -51,4 +68,5 @@ export default {
 //     navbar.classlist.remove("sticky");
 //   }
 // }
-// </script>
+//
+</script>

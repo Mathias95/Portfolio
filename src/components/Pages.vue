@@ -2,10 +2,10 @@
 <div>
     <div class="section-slider">
     <b-navbar-nav class="slider-nav">
-        <b-nav-item><router-link to v-scroll-to="'#Profile'">01</router-link></b-nav-item>
-        <b-nav-item><router-link to v-scroll-to="'#Skills'">02</router-link></b-nav-item>
-        <b-nav-item><router-link to v-scroll-to="'#Portfolio'">03</router-link></b-nav-item>
-        <b-nav-item><router-link to v-scroll-to="'#Contact'">04</router-link></b-nav-item>
+        <b-nav-item to='#Profile' v-scroll-to="'#Profile'">01</b-nav-item>
+        <b-nav-item to='#Skills' v-scroll-to="'#Skills'">02</b-nav-item>
+        <b-nav-item to='#Portfolio' v-scroll-to="'#Portfolio'">03</b-nav-item>
+        <b-nav-item to='#Contact' v-scroll-to="'#Contact'">04</b-nav-item>
     </b-navbar-nav>
 </div>
   <div id="Profile" class="section">
