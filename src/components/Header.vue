@@ -29,7 +29,7 @@
         </b-navbar-brand> -->
          <b-navbar toggleable="lg" type="dark" class="main_bar" id="main_bar" fixed="top">
          <b-navbar-brand href="/">
-          <img class="header_logo" src="../assets/img/theep-logo-1.jpg" alt="">
+          <img class="header_logo" src="../assets/img/theeplogo.jpg" alt="">
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
