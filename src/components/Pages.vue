@@ -4,7 +4,7 @@
     <div class="slider-nav">
         <router-link class="slider-link" to='#Profile' v-scroll-to="'#Profile'">01</router-link>
         <router-link class="slider-link" to='#Skills' v-scroll-to="'#Skills'">02</router-link>
-        <router-link class="slider-link" to='#Portfolio' v-scroll-to="'#Portfolio'">03</router-link>
+        <router-link class="slider-link" to='#Projects' v-scroll-to="'#Projects'">03</router-link>
         <router-link class="slider-link" to='#Contact' v-scroll-to="'#Contact'">04</router-link>
     </div>
 </div>
@@ -17,23 +17,27 @@
         </div>
     </div>
     <div id="Skills" class="section">
-        <div class="text-wr">
-            <h1 class="title">Skills</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-        </div>
+        <Skills/>
     </div>
-    <div id="Portfolio" class="section">
-        <div class="text-wr">
-            <h1 class="title">Portfolio</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-        </div>
+    <div id="Projects" class="section">
+      <Projects/>
     </div>
     <div id="Contact" class="section">
-        <div class="text-wr">
-            <h1 class="title">Contact</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-        </div>
+      <Contact/>
     </div>
 </div>
 
 </template>
+<script>
+import Contact from '@/views/Contact.vue'
+import Projects from '@/views/Projects.vue'
+import Skills from '@/views/Skills.vue'
+
+export default {
+  components: {
+    Contact,
+    Projects,
+    Skills
+  }
+}
+</script>

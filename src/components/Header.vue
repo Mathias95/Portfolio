@@ -36,16 +36,10 @@
 
         <b-collapse id="nav-text-collapse" is-nav>
           <b-navbar-nav class="ml-auto menu-items">
-            <b-nav-item to="#Profile" v-scroll-to="'#Profile'"
-              >Profile</b-nav-item
-            >
+            <b-nav-item to="#Profile" v-scroll-to="'#Profile'">Profile</b-nav-item>
             <b-nav-item to="#Skills" v-scroll-to="'#Skills'">Skills</b-nav-item>
-            <b-nav-item to="#Portfolio" v-scroll-to="'#Portfolio'"
-              >Portfolio</b-nav-item
-            >
-            <b-nav-item to="#Contact" v-scroll-to="'#Contact'"
-              >Contact</b-nav-item
-            >
+            <b-nav-item to="#Projects" v-scroll-to="'#Projects'">Projects</b-nav-item>
+            <b-nav-item to="#Contact" v-scroll-to="'#Contact'">Contact</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
