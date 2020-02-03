@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="mprojects">
-       <b-button variant="danger" onClick="location.href='../views/MoreProjects.vue'" type="submit">More Projects</b-button>
-      </div>
+      <router-link class="" to="/MoreProjects">More Projects</router-link>
+    </div>
   </div>
 </template>
