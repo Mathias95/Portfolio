@@ -9,19 +9,21 @@
     <router-view/>
   </div> -->
   <div class="default_layout">
-     <Profile/>
+    <Header/>
      <Pages/>
   </div>
 </template>
 <script>
 // @ is an alias to /src
-import Profile from '@/views/Profile.vue'
 import Pages from '@/components/Pages.vue'
+import Header from '@/components/Header.vue'
+// import MoreProjects from '@/views/MoreProjects.vue'
 
 export default {
   components: {
-    Profile,
-    Pages
+    Pages,
+    Header
+    // MoreProjects
   }
 }
 </script>

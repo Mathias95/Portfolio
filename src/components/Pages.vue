@@ -8,13 +8,8 @@
         <router-link class="slider-link" to='#Contact' v-scroll-to="'#Contact'">04</router-link>
     </div>
 </div>
-  <div id="Profile" class="section">
-        <div class="text-wr">
-            <h1 class="title">
-                <div class="title-top">Profile</div>
-                <div class="title-tx">Section 1</div>
-            </h1>
-        </div>
+<div id="Profile" class="section">
+       <Profile/>
     </div>
     <div id="Skills" class="section">
         <Skills/>
@@ -32,12 +27,14 @@
 import Contact from '@/views/Contact.vue'
 import Projects from '@/views/Projects.vue'
 import Skills from '@/views/Skills.vue'
+import Profile from '@/views/Profile.vue'
 
 export default {
   components: {
     Contact,
     Projects,
-    Skills
+    Skills,
+    Profile
   }
 }
 </script>
