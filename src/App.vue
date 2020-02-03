@@ -9,19 +9,17 @@
     <router-view/>
   </div> -->
   <div class="default_layout">
-    <Header/>
-     <Pages/>
+    <Header />
+    <router-view />
   </div>
 </template>
 <script>
 // @ is an alias to /src
-import Pages from '@/components/Pages.vue'
 import Header from '@/components/Header.vue'
 // import MoreProjects from '@/views/MoreProjects.vue'
 
 export default {
   components: {
-    Pages,
     Header
     // MoreProjects
   }
@@ -29,6 +27,6 @@ export default {
 </script>
 
 <style lang="scss">
-  //Import global scss styling
-  @import "./assets/scss/main";
+//Import global scss styling
+@import "./assets/scss/main";
 </style>

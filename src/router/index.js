@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Profile from '../views/Profile.vue'
+import Pages from '../components/Pages.vue'
 import MoreProjects from '../views/MoreProjects.vue'
 
 Vue.use(VueRouter)
@@ -8,8 +8,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Profile',
-    component: Profile
+    name: 'Pages',
+    component: Pages
   },
   {
     path: '/MoreProjects',
