@@ -16,12 +16,10 @@
 <script>
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
-// import MoreProjects from '@/views/MoreProjects.vue'
 
 export default {
   components: {
     Header
-    // MoreProjects
   }
 }
 </script>

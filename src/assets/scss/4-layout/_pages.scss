@@ -42,22 +42,6 @@ body, html {
 	}
 }
 
-// h1, p {
-// 	margin: 0;
-// 	font-family: sans-serif, arial;
-// 	font-weight: bold;
-// }
-
-// .text-wr {
-// 	position: absolute;
-// 	top: 50%;
-// 	left: 50%;
-// 	-webkit-transform: translate(-50%, -50%);
-// 	-moz-transform: translate(-50%, -50%);
-// 	-o-transform: translate(-50%, -50%);
-// 	-ms-transform: translate(-50%, -50%);
-// 	transform: translate(-50%, -50%);
-// }
 
 #Profile {
 	background: $primaryColor;
@@ -80,31 +64,11 @@ body, html {
 	color: #aeb9b9;
 }
 
-// h1 {
-// 	font-size: 50px;
-// 	margin-bottom: 25px;
-// }
-
-// .title-top {
-// 	font-size: 60px;
-// 	padding-bottom: 30px;
-// }
-
-// .title-bottom {
-// 	font-size: 30px;
-// }
-
-// .title-tx {
-// 	font-size: 20px;
-// 	opacity: 0.8;
-// }
-
 @media screen and (min-width: 1200px){
 	.section {
 		min-height: 1000px;
 		position: relative;
 		text-align: center;
-		//font-family: sans-serif, arial;
 		margin: 0;
 	}
 }

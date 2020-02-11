@@ -9,7 +9,7 @@
     </div>
 </div>
 <div id="Profile" class="section">
-       <Profile/>
+      <Profile/>
     </div>
     <div id="Skills" class="section">
         <Skills/>

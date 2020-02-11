@@ -1,7 +1,119 @@
-.Skills{
-    align-self: stretch;
-    padding-top: 15%;
-    padding-left: 25%;
-    border-radius: 5px;
-    width: 75%;
+.Skills {
+  //align-self: stretch;
+  padding-top: 10%;
+  padding-left: 15%;
+  //border-radius: 5px;
+  width: 100%;
+}
+.front-end{
+  width: 50%;
+  float: left;
+}
+
+  #html5 {
+    animation-timing-function: linear;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend 5s infinite;
   }
+
+  #css {
+    animation-timing-function: ease;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend 7s infinite;
+  }
+  #javascript {
+    animation-timing-function: ease-in;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend 9s infinite;
+  }
+
+  #sass {
+    animation-timing-function: ease-out;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend 5s infinite;
+  }
+  #sql {
+    animation-timing-function: ease-in-out;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend 11s infinite;
+  }
+
+
+@keyframes frontend {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 320px;
+  }
+}
+
+.back-end{
+  width: 50%;
+  float: right;
+}
+
+#c {
+  animation-timing-function: linear;
+  width: 60px;
+  //height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: backend 11s infinite;
+}
+#asp {
+  animation-timing-function: linear;
+  width: 60px;
+  //height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: backend 9s infinite;
+}
+#git {
+  animation-timing-function: linear;
+  width: 60px;
+  //height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: backend 7s infinite;
+}
+#umbraco {
+  animation-timing-function: linear;
+  width: 60px;
+  //height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: backend 5s infinite;
+}
+#xamarin {
+  animation-timing-function: linear;
+  width: 60px;
+  //height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: backend 3s infinite;
+}
+
+@keyframes backend {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 280px;
+  }
+}

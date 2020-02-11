@@ -1,4 +1,5 @@
 <template>
+<div class="animated zoomInDown delay-4s.click">
   <div class="Projects">
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
@@ -41,7 +42,11 @@
       </div>
     </div>
     <div class="mprojects">
-      <router-link class="" to="/MoreProjects">More Projects</router-link>
-    </div>
+      <!-- <router-link class="" to="/MoreProjects">More Projects</router-link> -->
+        <!-- <b-button variant="danger"><router-link class="" to="../MoreProjects">More Projects</router-link></b-button><br><br> -->
+        <b-button variant="danger"><router-link class="" to="/MoreProjects">MoreProjects</router-link></b-button><br><br>
+      <b-button variant="danger" onClick="location.href='/MoreProjects'" type="submit">MoreProjects</b-button><br><br>
+   </div>
   </div>
+   </div>
 </template>

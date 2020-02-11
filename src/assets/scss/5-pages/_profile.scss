@@ -1,35 +1,35 @@
-// .Profile{
-//     align-self: stretch;
-//     padding-top: 10%;
-//     width: 80%;
-//     display: flex;
-
-//     .p-details{
-//         float: left;
-//         width: 70%;
-//         padding-left: 15%;
-//         text-align: start;
-//         font-size: 1.5vw;
-
-//         .heading{
-//             font-size: 3vw;
-//         }
-       
-//     }
-
-//     .p-image{
-//         float: right;
-//         width: 30%;
-//         padding-right: 5%;
-//         height: auto;
-        
-//     }
-//   }
-
 .Profile{
-    align-self: stretch;
-    padding-top: 15%;
-    padding-left: 25%;
+    //align-self: stretch;
+    padding-top: 9%;
+    padding-left: 10%;
+    padding-right: 10%;
     border-radius: 5px;
-    width: 75%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+       
+
+    .p-details{
+        float: left;
+        width: 100%;
+        padding-left: 10%;
+        text-align: start;
+        font-size:1.5rem;
+
+        // .heading{
+        //     font-size: 4vw;
+        // }
+       
+    }
+
+    .p-image{
+        float: right;
+        //width: 100%;
+        padding-right: 5%;
+        height: auto;
+        
+    }
   }

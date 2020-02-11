@@ -33,6 +33,33 @@
   <b-button variant="danger" type="submit">Send</b-button>
 </div>
  </form>
+
+ <div class="col-lg-7 col-md-4 col-sm-6 col-xs-12">
+    <div class="Contact-hovereffect">
+        <!-- <img class="img-responsive" src="../assets/img/theeplogo.jpg" alt=""> -->
+            <div class="ct-overlay">
+                <h1>Contact Me</h1>
+                <p class="set1">
+                    <a href="#">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </p>
+                <hr>
+                <hr>
+                <p class="set2">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-globe"></i>
+                    </a>
+                </p>
+            </div>
+    </div>
+   </div>
 </div>
  </template>
 
