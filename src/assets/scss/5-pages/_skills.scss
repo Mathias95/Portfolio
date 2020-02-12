@@ -1,19 +1,35 @@
-.Skills {
-  //align-self: stretch;
-  padding-top: 10%;
-  padding-left: 15%;
-  //border-radius: 5px;
-  width: 100%;
+#Skillpage {
+//padding-top: 9%;
+//padding-left: 10%;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
 }
-.front-end{
-  width: 50%;
+#front-end{
+  width: 45%;
   float: left;
+  padding-top: 6%;
+  padding-left: 5%;
+  
 }
 
+#back-end{
+  width: 45%;
+  float: right;
+  padding-top: 6%;
+}
+
+#cv{ 
+width: 10%;
+float: right;
+clear: both;
+
+  
+}
   #html5 {
     animation-timing-function: linear;
     width: 60px;
-    //height: 50px;
     font-weight: bold;
     position: relative;
     animation: frontend 5s infinite;
@@ -22,7 +38,6 @@
   #css {
     animation-timing-function: ease;
     width: 60px;
-    //height: 50px;
     font-weight: bold;
     position: relative;
     animation: frontend 7s infinite;
@@ -30,10 +45,9 @@
   #javascript {
     animation-timing-function: ease-in;
     width: 60px;
-    //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 9s infinite;
+    animation: frontend 6s infinite;
   }
 
   #sass {
@@ -44,13 +58,31 @@
     position: relative;
     animation: frontend 5s infinite;
   }
-  #sql {
-    animation-timing-function: ease-in-out;
+  
+  #vuejs{
+    animation-timing-function: ease-in;
     width: 60px;
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 11s infinite;
+    animation: frontend 4s infinite;
+  }
+
+  #nuxt{
+    animation-timing-function: ease-out;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend 9s infinite;
+  }
+  #wordpress{
+    animation-timing-function: linear;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend 7s infinite;
   }
 
 
@@ -59,14 +91,11 @@
     left: 0px;
   }
   to {
-    left: 320px;
+    left: 650px;
   }
 }
 
-.back-end{
-  width: 50%;
-  float: right;
-}
+
 
 #c {
   animation-timing-function: linear;
@@ -109,11 +138,37 @@
   animation: backend 3s infinite;
 }
 
+#sql {
+  animation-timing-function: ease-in-out;
+  width: 60px;
+  //height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: backend 11s infinite;
+}
+
+#strapi {
+  animation-timing-function: ease-in-out;
+  width: 60px;
+  //height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: backend 5s infinite;
+}
+
 @keyframes backend {
   from {
-    right: 0px;
+    left: 0px;
   }
   to {
-    right: 280px;
+    left: 450px;
   }
+}
+
+@media screen and (max-width: 768px){
+  #Skillspage{
+    padding-top: 15%;
+    
+  }
+    
 }

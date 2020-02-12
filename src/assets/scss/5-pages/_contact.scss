@@ -1,16 +1,43 @@
 .Contact{
   //align-self: stretch;
-  padding-top: 10%;
+  padding-top: 9%;
   padding-left: 12%;
   border-radius: 5px;
   display: flex;
- 
- 
-   
+  flex-wrap: wrap;
+  align-content: flex-start;
+    
 }
-.needs-validation{
+#contactform{
   width: 50%;
+  //float: left;
+
 }
+#contactimages{
+width: 50%;
+//float: right;
+}
+
+@media screen and (max-width: 768px){
+  .Contact{
+    padding-top: 15%;
+    
+    
+  }
+
+  #contactform{
+    width: 90%;
+  }
+  #contactimages{
+    width: 90%;
+  }
+
+    
+    
+}
+// .needs-validation{
+//   width: 50%;
+// }
 
 // @media (min-width: 320px) and (max-width: 480px) {
 //   .contact{
@@ -21,9 +48,8 @@
 
 // }
 .Contact-hovereffect {
-  width: 80%;
-  height: 100%;
-  //float: right;
+  //width: 50%;
+  //height: 100%;
   overflow: hidden;
   position: relative;
   text-align: center;

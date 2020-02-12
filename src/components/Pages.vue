@@ -1,5 +1,7 @@
 <template>
 <div>
+  <div id="maincontent">
+  <div id="sidebar">
     <div class="section-slider">
     <div class="slider-nav">
         <router-link class="slider-link" to='#Profile' v-scroll-to="'#Profile'">01</router-link>
@@ -8,6 +10,8 @@
         <router-link class="slider-link" to='#Contact' v-scroll-to="'#Contact'">04</router-link>
     </div>
 </div>
+</div>
+<div id="mainpage">
 <div id="Profile" class="section">
       <Profile/>
     </div>
@@ -20,6 +24,8 @@
     <div id="Contact" class="section">
       <Contact/>
     </div>
+</div>
+</div>
 </div>
 
 </template>

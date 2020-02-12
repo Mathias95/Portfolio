@@ -13,8 +13,9 @@
     <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
       <div class="p-details">
         <h4>
-          Hello! My name is Pratheep Sinnappu. I have Completed Computer Science and BA top-up in Web Development at
-          Erhvervsakademi og Professionshøjskole (UCL) in Odense.
+          Hi! My name is Pratheep Sinnappu. I have Completed Computer Science and BA top-up in Web Development at
+          Erhvervsakademi og Professionshøjskole (UCL) in Odense.<br>
+          I am looking for a internship to prove and develop my self for future carrier.
         </h4>
         <!-- <p>
           C# (OOP), Asp.net MVC, CMS (Umbraco, Strapi), Xamarin, Scrum, Git,

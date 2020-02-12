@@ -1,5 +1,6 @@
 <template>
   <div class="Contact">
+    <div id="contactform">
     <form class="needs-validation" novalidate>
     <div>
     <b-form-input class="col-xs-4" type="text" placeholder="First Name" value="" required></b-form-input>
@@ -33,10 +34,11 @@
   <b-button variant="danger" type="submit">Send</b-button>
 </div>
  </form>
-
- <div class="col-lg-7 col-md-4 col-sm-6 col-xs-12">
+ </div>
+<div id="contactimages">
+ <div class="col-lg-10 col-md-4 col-sm-6 col-xs-12">
     <div class="Contact-hovereffect">
-        <!-- <img class="img-responsive" src="../assets/img/theeplogo.jpg" alt=""> -->
+        <img class="img-responsive" src="../assets/img/theeplogo.jpg" alt="">
             <div class="ct-overlay">
                 <h1>Contact Me</h1>
                 <p class="set1">
@@ -59,7 +61,8 @@
                 </p>
             </div>
     </div>
-   </div>
+ </div>
+ </div>
 </div>
  </template>
 
