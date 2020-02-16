@@ -1,46 +1,46 @@
 <template>
   <div class="MoreProjects">
-    <sui-item-group>
-      <sui-item>
-        <sui-item-image src="../assets/img/tuco.jpg" />
-        <sui-item-content>
-          <sui-item-header>Header</sui-item-header>
-          <sui-item-meta>
-            <span>Description</span>
-          </sui-item-meta>
-          <sui-item-description>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
-            </p>
-          </sui-item-description>
-          <sui-item-extra>
-            Additional Details
-          </sui-item-extra>
-        </sui-item-content>
-      </sui-item>
-      <sui-item>
-        <sui-item-image src="../assets/img/tuco.jpg" alt="" />
-        <sui-item-content>
-          <sui-item-header>Header</sui-item-header>
-          <sui-item-meta>
-            <span>Description</span>
-          </sui-item-meta>
-          <sui-item-description>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
-            </p>
-          </sui-item-description>
-          <sui-item-extra>
-            Additional Details
-          </sui-item-extra>
-        </sui-item-content>
-      </sui-item>
-    </sui-item-group>
-  </div>
+  <div class="moreimagecard">
+  <b-card no-body class="overflow-hidden">
+    <b-row no-gutters>
+      <b-col md="6">
+      <div class="">
+        <a href="https://prozero.dk/" target="_blank"><img class="img-responsive" src="../assets/img/prozero.jpg" alt="" /></a>
+        </div>
+      </b-col>
+      <b-col md="5">
+        <b-card-body title="Horizontal Card">
+          <b-card-text>
+            This is a wider card with supporting text as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </b-card-text>
+        </b-card-body>
+      </b-col>
+    </b-row>
+  </b-card>
+  <br>
+  <br>
+  <b-card no-body class="overflow-hidden">
+    <b-row no-gutters>
+      <b-col md="6">
+        <div class="">
+        <a href="https://prozero.dk/" target="_blank"><img class="img-responsive" src="../assets/img/prozero.jpg" alt="" /></a>
+        </div>
+      </b-col>
+      <b-col md="5">
+        <b-card-body title="Horizontal Card">
+          <b-card-text>
+            This is a wider card with supporting text as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </b-card-text>
+        </b-card-body>
+      </b-col>
+    </b-row>
+  </b-card>
+  <br>
+  <br>
+</div>
+</div>
 </template>
 
 <script>

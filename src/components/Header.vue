@@ -29,17 +29,17 @@
         </b-navbar-brand> -->
          <b-navbar toggleable="lg" type="dark" class="main_bar" id="main_bar" fixed="top">
          <b-navbar-brand href="/">
-          <img class="header_logo" src="../assets/img/theeplogo.jpg" alt="">
+          <img class="header_logo" v-animate-css.hover="'flip'" src="../assets/img/theep-logo-white.jpg" alt="">
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-text-collapse" is-nav>
-          <b-navbar-nav class="ml-auto menu-items">
-            <b-nav-item to="#Profile" v-scroll-to="'#Profile'">Profile</b-nav-item>
-            <b-nav-item to="#Skills" v-scroll-to="'#Skills'">Skills</b-nav-item>
-            <b-nav-item to="#Projects" v-scroll-to="'#Projects'">Projects</b-nav-item>
-            <b-nav-item to="#Contact" v-scroll-to="'#Contact'">Contact</b-nav-item>
+          <b-navbar-nav class="ml-auto menu-items animated lightSpeedIn delay-4s">
+            <b-nav-item to="/#Profile" v-scroll-to="'#Profile'">Profile</b-nav-item>
+            <b-nav-item to="/#Skills" v-scroll-to="'#Skills'">Skills</b-nav-item>
+            <b-nav-item to="/#Projects" v-scroll-to="'#Projects'">Projects</b-nav-item>
+            <b-nav-item to="/#Contact" v-scroll-to="'#Contact'">Contact</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>

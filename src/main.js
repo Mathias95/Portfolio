@@ -3,7 +3,6 @@ import App from './App.vue'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import VAnimateCss from 'v-animate-css'
-import SuiVue from 'semantic-ui-vue'
 
 // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
@@ -13,7 +12,6 @@ import SuiVue from 'semantic-ui-vue'
 
 // Vue.component('font-awesome-icon', FontAwesomeIcon, faUserSecret)
 
-Vue.use(SuiVue)
 Vue.use(VAnimateCss)
 
 Vue.use(BootstrapVue)

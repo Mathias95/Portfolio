@@ -5,4 +5,21 @@
     border-radius: 5px;
     width: 80%;
     color: white;
+    
+}
+.moreimagecard{
+max-width:950px;
+.overflow-hidden{
+    border: none;
+  }
+  
+  .no-gutters{
+    background-color:$primaryColor;
+  }
+  .card-text{
+    text-align: left;
+    font-size:0.9999rem;
+    
+  }
+
 }

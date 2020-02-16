@@ -168,6 +168,10 @@ clear: both;
 @media screen and (max-width: 768px){
   #Skillspage{
     padding-top: 15%;
+    width: 50%;
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
     
   }
     
