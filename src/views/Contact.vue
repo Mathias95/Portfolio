@@ -40,7 +40,7 @@
     <div class="Contact-hovereffect">
         <img class="img-responsive" src="../assets/img/theeplogo.jpg" alt="">
             <div class="ct-overlay">
-                <h1>Contact Me</h1>
+                <!-- <h1>Contact Me</h1> -->
                 <p class="set1">
                     <a href="#">
                         <i class="fa fa-google"></i>

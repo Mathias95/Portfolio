@@ -1,29 +1,38 @@
-#Skillpage {
-//padding-top: 9%;
-//padding-left: 10%;
-width: 100%;
-display: flex;
-flex-wrap: wrap;
-align-content: flex-start;
+#skillspage {
+  width: 95%;
+  padding-top: 9%;
+  padding-left: 10%;
+  // background-color: yellowgreen;
+  // color: white;
+}
+
+.skillscontainer{
+  //background-color: red;
+  color: white;
 }
 #front-end{
-  width: 45%;
-  float: left;
-  padding-top: 6%;
-  padding-left: 5%;
+  width: 100%;
   
 }
 
 #back-end{
-  width: 45%;
-  float: right;
-  padding-top: 6%;
+  width: 100%;
 }
 
 #cv{ 
-width: 10%;
-float: right;
-clear: both;
+  width: 100%;
+  padding-top: 125%;
+  padding-left: 35%;
+  align-items: right;
+
+ img{
+     width: 75%;
+     
+  :hover {
+      cursor: text;
+     }  
+   
+}
 
   
 }

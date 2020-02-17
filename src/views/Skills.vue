@@ -1,19 +1,13 @@
 <template>
-  <div id="Skillspage">
-    <div id="front-end">
-          <!-- <div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="pratheep-dk"><a class="LI-simple-link" href='https://dk.linkedin.com/in/pratheep-dk?trk=profile-badge'>Pratheep Sinnappu</a></div>
-</div> -->
-      <div class="skills-img-f">
+  <div id="skillspage">
+ <b-container  fluid="sm" class="skillscontainer">
+  <b-row>
+    <b-col cols="6"  md="5" id="front-end"  fluid="sm">
+        <div class="skills-img-f">
         <div id="html5">
-          <img
-            class="img-responsive"
-            src="../assets/img/skills/html5.png"
-            alt=""
-          />HTML5
-        </div>
-        <div id="css">
+        <img class="img-responsive" src="../assets/img/skills/html5.png" alt="" />HTML5
+      </div>
+      <div id="css">
           <img
             class="img-responsive"
             src="../assets/img/skills/css.png"
@@ -55,18 +49,17 @@
             alt=""
           />WORDPRESS
         </div>
-        </div>
     </div>
-    <div id="back-end">
-      <div class="skills-img-b">
-        <div id="c">
-          <img
+    </b-col>
+    <b-col cols="6"  md="5" id="back-end">
+    <div id="c">
+       <img
             class="img-responsive"
             src="../assets/img/skills/csharp.png"
             alt=""
           />C#
-        </div>
-        <div id="asp">
+    </div>
+    <div id="asp">
           <img
             class="img-responsive"
             src="../assets/img/skills/asp.png"
@@ -108,12 +101,15 @@
             alt=""
           />STRAPI
         </div>
-      </div>
+    </b-col>
+    <b-col cols="6" md="2">
+       <div id="cv">
+      <a href ="https://drive.google.com/file/d/1s74VkKBpMG_ANYyHLrNs6kLr88NHv_o6/view?usp=sharing " target="_blank" ><img src="../assets/img/skills/resumepdf.png" alt="" /></a>
     </div>
-    <div id="cv">
-      <a href ="https://drive.google.com/file/d/1s74VkKBpMG_ANYyHLrNs6kLr88NHv_o6/view?usp=sharing " target="_blank" >Click here to view the CV</a>
+    </b-col>
+  </b-row>
+</b-container>
     </div>
-  </div>
 </template>
 
 <script>
