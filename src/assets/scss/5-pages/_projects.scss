@@ -15,8 +15,18 @@
   }
   .mprojects{
    padding-left:50px;
-  
+   
+  :hover{
+    color: $whiteColor;
+    text-decoration: none;
   }
+  }
+  .mproject-txt{
+    color: $whiteColor;
+    text-decoration: none;
+  }
+
+
 
    
 
@@ -42,7 +52,7 @@
       
     }
     .mprojects{
-      padding-left:33%;
+      padding-left:25%;
      
      }
       

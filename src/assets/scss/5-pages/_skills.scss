@@ -173,13 +173,17 @@
 }
 
 @media screen and (max-width: 768px){
-  #Skillspage{
+  #skillspage{
     padding-top: 8%;
-    width: 50%;
+    width: 80%;
 display: flex;
 flex-wrap: wrap;
 align-content: flex-start;
     
+  }
+
+  #cv{
+    margin-left: 60%;
   }
 
   @keyframes frontend {
