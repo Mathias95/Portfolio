@@ -3,7 +3,7 @@
     <b-container id="Contact">
    <b-row>
     <b-col cols="12" md="8" class="contactform">
-        <form Method="POST" data-netlify="true" class="needs-validation" novalidate>
+        <form Method="POST" data-netlify="true" name="contact" class="needs-validation" novalidate>
     <div>
     <b-form-input class="col-xs-4" type="text" placeholder="First Name" name="firstname" value="" required></b-form-input>
     <div class="invalid-feedback">
