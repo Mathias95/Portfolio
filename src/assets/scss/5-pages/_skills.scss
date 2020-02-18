@@ -47,7 +47,7 @@
     width: 60px;
     font-weight: bold;
     position: relative;
-    animation: frontend 7s infinite;
+    animation: frontend 4s infinite;
   }
   #javascript {
     animation-timing-function: ease-in;
@@ -180,6 +180,24 @@ display: flex;
 flex-wrap: wrap;
 align-content: flex-start;
     
+  }
+
+  @keyframes frontend {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 50px;
+    }
+  }
+
+  @keyframes backend {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 50px;
+    }
   }
     
 }
