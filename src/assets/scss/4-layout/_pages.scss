@@ -18,20 +18,18 @@ float: right;
 }
 .section {
 	min-height: 768px;
-	//position: relative;
-	//margin: 0;
+	padding-top: 9%;
+	
 	
 }
 
 .section-slider {
-	//height: 100vh;
+	
 	position: fixed;
 	top: 300px;
 	right: 2%;
 	z-index: 1000;
-	//text-decoration: none;
 	
-	//have to change this color
 	:hover{
 		color:yellowgreen;
 		text-decoration: none;
@@ -47,9 +45,7 @@ float: right;
 	color:$whiteColor;
 	margin-bottom: 20px;
 
-	// &:last-child{
-	// 	margin-bottom: 0px;
-	// }
+	
 }
 
 #Profile, #Skills, #Projects, #Contact {
@@ -58,28 +54,6 @@ float: right;
 
 }
 
-// #Profile {
-// 	background: $primaryColor;
-//     //color: #8d86c3;
-// 	color:$whiteColor;
-// }
-
-// #Skills {
-// 	background: $primaryColor;
-// 	//color: #81d2d5;
-// 	color:$whiteColor;
-// }
-
-// #Projects {
-// 	background: $primaryColor;
-// 	//color: rgb(248, 242, 242);
-// }
-
-// #Contact {
-// 	background:$primaryColor;
-// 	//color: #aeb9b9;
-// 	color:$whiteColor;
-// }
 
 @media screen and (min-width: 1200px){
 	.section {

@@ -1,7 +1,41 @@
 #newct{
-    width: 90%;
+    width: 100%;
     padding-top: 9%;
-    padding-left: 11%;
+    //padding-left: 10%;
     // background-color: yellowgreen;
     // color: white;
 }
+
+// .contactform{
+//     width: 100%;
+// }
+
+.contacticons{
+    padding-left: 10%;
+    padding-top: 8%;
+   
+    .img-responsive{
+        border-radius: 25%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+      .contacticons{
+          width: 100%;
+        display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            padding-left: 40%;
+           
+            br {
+                display: none;
+            }
+         
+        }
+        .img-responsive{
+           margin-top: 15%;
+           
+        }
+     }
+    
+    

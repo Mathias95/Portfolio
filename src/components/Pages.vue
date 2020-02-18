@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div id="maincontent" v-animate-css.click="'slideInRight'">
+  <div id="maincontent" >
   <div id="sidebar" >
     <div class="section-slider" >
     <div class="slider-nav animated zoomInDown delay-15s">
@@ -9,6 +9,7 @@
         <router-link class="slider-link" to='#Projects' v-scroll-to="'#Projects'">03</router-link>
         <router-link class="slider-link" to='#Contact' v-scroll-to="'#Contact'">04</router-link>
     </div>
+    <!-- v-animate-css.click="'slideInRight'" -->
 </div>
 </div>
 <div id="mainpage" >

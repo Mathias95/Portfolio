@@ -1,7 +1,9 @@
 <template>
-  <div class="Contact">
-    <div id="contactform">
-    <form class="needs-validation" novalidate>
+   <div>
+    <b-container id="Contact">
+   <b-row>
+    <b-col cols="12" md="8" class="contactform">
+        <form class="needs-validation" novalidate>
     <div>
     <b-form-input class="col-xs-4" type="text" placeholder="First Name" value="" required></b-form-input>
     <div class="invalid-feedback">
@@ -34,36 +36,22 @@
   <b-button variant="danger" type="submit">Send</b-button>
 </div>
  </form>
- </div>
-<div id="contactimages">
- <div class="col-lg-10 col-md-4 col-sm-6 col-xs-12">
-    <div class="Contact-hovereffect">
-        <img class="img-responsive" src="../assets/img/theeplogo.jpg" alt="">
-            <div class="ct-overlay">
-                <!-- <h1>Contact Me</h1> -->
-                <p class="set1">
-                    <a href="#">
-                        <i class="fa fa-google"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </p>
-                <hr>
-                <hr>
-                <p class="set2">
-                    <a href="#">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-globe"></i>
-                    </a>
-                </p>
-            </div>
-    </div>
- </div>
- </div>
-</div>
+    </b-col>
+   <!-- Break contact form and contact icon -->
+    <b-col cols="6" md="4" class="contacticons">
+        <b-row cols="2">
+    <b-col md="4"> <a href="https://www.facebook.com/theep1891" target="_blank"><img class="img-responsive" src="../assets/img/contact/facebook.gif" alt="" /></a></b-col><br>
+    <b-col md="4"><a class="LI-simple-link" href='https://dk.linkedin.com/in/pratheep-dk?trk=profile-badge' target="_blank"><img class="img-responsive" src="../assets/img/contact/linkedin.gif" alt="" /></a></b-col>
+    </b-row>
+    <br>
+    <b-row cols="2">
+    <b-col md="4"><a href="mailto:theep1891@gmail.com"><img class="img-responsive" src="../assets/img/contact/mail.gif" alt="" /></a></b-col>
+    <b-col md="4"><a href="tel:+1234-5678"><img class="img-responsive" src="../assets/img/contact/viber.gif" alt="" /></a></b-col>
+    </b-row>
+    </b-col>
+  </b-row>
+  </b-container>
+   </div>
  </template>
 
 <script>
