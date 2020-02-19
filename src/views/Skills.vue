@@ -103,8 +103,8 @@
         </div>
     </b-col>
     <b-col cols="6" md="2">
-       <div id="cv">
-      <a href ="https://drive.google.com/file/d/1s74VkKBpMG_ANYyHLrNs6kLr88NHv_o6/view?usp=sharing " target="_blank" ><img src="../assets/img/skills/resumepdf.png" alt="" /></a>
+       <div id="cv"  v-animate-css.hover ="'flash'">
+      <a href ="https://drive.google.com/file/d/1ZqASnWeS5IfPXbFuIEf8-DuOqR2LtMvB/view?usp=sharing" target="_blank" ><img src="../assets/img/skills/resumepdf.png" alt="" /></a>
     </div>
     </b-col>
   </b-row>

@@ -46,7 +46,7 @@
     <br>
     <b-row cols="2">
     <b-col md="4"><a href="mailto:theep1891@gmail.com"><img class="ctimg-responsive" src="../assets/img/contact/mail.gif" alt="" /></a></b-col>
-    <b-col md="4"><a href="tel:+1234-5678"><img class="ctimg-responsive" src="../assets/img/contact/viber.gif" alt="" /></a></b-col>
+    <b-col md="4"><a href="tel:+45 71170470"><img class="ctimg-responsive" src="../assets/img/contact/viber.gif" alt="" /></a></b-col>
     </b-row>
     </b-col>
   </b-row>
