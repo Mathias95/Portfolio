@@ -4,6 +4,13 @@
     border-radius: 5px;
    
   }
+  .profileimg-responsive{
+    filter: opacity(0.2);
+    pointer-events: none;
+    
+
+    
+  }
   .profilecontent{
     max-width:95%;
 
@@ -26,5 +33,19 @@
         padding-top: 8%;
         
       }
+
+      .profilecontent{
+      .card-text{
+        
+        font-size:0.9rem;
+        
+      }
+    }
+
+    .profileimg-responsive{
+      filter: opacity(0.2);
+      width: 70%;
+     align-self: center;
+    }
         
 }
