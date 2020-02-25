@@ -8,15 +8,31 @@
  
   color: white;
 }
+
+.skillsimg-responsive{
+  width: 50px;
+}
 #front-end{
   width: 100%;
-  
+  :hover{
+    animation-play-state:paused;
+    cursor: pointer;
+  }
+   
+}
+.skills-img-f{
+:hover{
+  animation-play-state:paused;
+}
 }
 
 #back-end{
   width: 100%;
+  :hover{
+    animation-play-state:paused;
+    cursor: pointer;
 }
-
+}
 #cv{ 
   width: 100%;
   padding-top: 125%;
@@ -39,22 +55,22 @@
     width: 60px;
     font-weight: bold;
     position: relative;
-    animation: frontend 5s infinite;
+    animation: frontend 35s infinite;
   }
 
   #css {
-    animation-timing-function: ease;
+    animation-timing-function: ease-out;
     width: 60px;
     font-weight: bold;
     position: relative;
-    animation: frontend 4s infinite;
+    animation: frontend 25s infinite;
   }
   #javascript {
     animation-timing-function: ease-in;
     width: 60px;
     font-weight: bold;
     position: relative;
-    animation: frontend 6s infinite;
+    animation: frontend 30s infinite;
   }
 
   #sass {
@@ -63,7 +79,7 @@
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 5s infinite;
+    animation: frontend 35s infinite;
   }
   
   #vuejs{
@@ -72,7 +88,7 @@
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 4s infinite;
+    animation: frontend 25s infinite;
   }
 
   #nuxt{
@@ -81,7 +97,7 @@
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 9s infinite;
+    animation: frontend 35s infinite;
   }
   #wordpress{
     animation-timing-function: linear;
@@ -89,7 +105,14 @@
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 7s infinite;
+    animation: frontend 35s infinite;
+  }#bootstrapvue{
+    animation-timing-function: ease-out;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend 30s infinite;
   }
 
 
@@ -98,7 +121,7 @@
     left: 0px;
   }
   to {
-    left: 650px;
+    left: 450px;
   }
 }
 
@@ -110,7 +133,7 @@
   //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 11s infinite;
+  animation: backend 35s infinite;
 }
 #asp {
   animation-timing-function: linear;
@@ -118,7 +141,7 @@
   //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 9s infinite;
+  animation: backend 30s infinite;
 }
 #git {
   animation-timing-function: linear;
@@ -126,7 +149,7 @@
   //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 7s infinite;
+  animation: backend 25s infinite;
 }
 #umbraco {
   animation-timing-function: linear;
@@ -134,7 +157,7 @@
   //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 5s infinite;
+  animation: backend 35s infinite;
 }
 #xamarin {
   animation-timing-function: linear;
@@ -142,7 +165,7 @@
   //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 3s infinite;
+  animation: backend 30s infinite;
 }
 
 #sql {
@@ -151,7 +174,7 @@
   //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 11s infinite;
+  animation: backend 25s infinite;
 }
 
 #strapi {
@@ -160,7 +183,7 @@
   //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 5s infinite;
+  animation: backend 35s infinite;
 }
 
 @keyframes backend {
