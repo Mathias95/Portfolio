@@ -28,7 +28,7 @@
 
 #back-end{
   width: 100%;
-  :hover{
+   :hover{
     animation-play-state:paused;
     cursor: pointer;
 }
@@ -55,7 +55,9 @@
     width: 60px;
     font-weight: bold;
     position: relative;
-    animation: frontend 35s infinite;
+    animation: frontend-htmls 35s infinite;
+
+    
   }
 
   #css {
@@ -63,14 +65,22 @@
     width: 60px;
     font-weight: bold;
     position: relative;
-    animation: frontend 25s infinite;
+    animation: frontend-css 35s infinite;
+  }
+  #nuxt{
+    animation-timing-function: ease-out;
+    width: 60px;
+    //height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: frontend-nuxt 35s infinite;
   }
   #javascript {
     animation-timing-function: ease-in;
     width: 60px;
     font-weight: bold;
     position: relative;
-    animation: frontend 30s infinite;
+    animation: frontend-javascript 35s infinite;
   }
 
   #sass {
@@ -79,7 +89,7 @@
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 35s infinite;
+    animation: frontend-sass 35s infinite;
   }
   
   #vuejs{
@@ -88,44 +98,99 @@
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 25s infinite;
+    animation: frontend-vuejs 35s infinite;
   }
 
-  #nuxt{
-    animation-timing-function: ease-out;
-    width: 60px;
-    //height: 50px;
-    font-weight: bold;
-    position: relative;
-    animation: frontend 35s infinite;
-  }
-  #wordpress{
+    #wordpress{
     animation-timing-function: linear;
     width: 60px;
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 35s infinite;
+    animation: frontend-wordpress 35s infinite;
   }#bootstrapvue{
     animation-timing-function: ease-out;
     width: 60px;
     //height: 50px;
     font-weight: bold;
     position: relative;
-    animation: frontend 30s infinite;
+    animation: frontend-bootstrapvue 35s infinite;
   }
 
 
-@keyframes frontend {
-  from {
-    left: 0px;
+// @keyframes frontend {
+//   from {
+//     left: 0px;
+//   }
+//   to {
+//     left: 450px;
+//   }
+// }
+
+@keyframes frontend-htmls  {
+      from{
+   left :200px;
+      }
+      to{
+   left :450px;
+      }
+}
+@keyframes frontend-css  {
+  from{
+left :120px;
   }
-  to {
-    left: 450px;
+  to{
+left :450px;
   }
 }
-
-
+@keyframes frontend-nuxt  {
+  from{
+left :50px;
+  }
+  to{
+left :450px;
+  }
+}
+@keyframes frontend-javascript  {
+  from{
+left :0px;
+  }
+  to{
+left :450px;
+  }
+}
+@keyframes frontend-sass  {
+  from{
+left :30px;
+  }
+  to{
+left :450px;
+  }
+}
+@keyframes frontend-vuejs  {
+  from{
+left :80px;
+  }
+  to{
+left :450px;
+  }
+}
+@keyframes frontend-wordpress  {
+  from{
+left :120px;
+  }
+  to{
+left :450px;
+  }
+}
+@keyframes frontend-bootstrapvue  {
+  from{
+left :200px;
+  }
+  to{
+left :450px;
+  }
+}
 
 #c {
   animation-timing-function: linear;
@@ -133,62 +198,112 @@
   //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 35s infinite;
+  animation: backend-c 35s infinite;
 }
 #asp {
   animation-timing-function: linear;
   width: 60px;
-  //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 30s infinite;
+  animation: backend-asp 35s infinite;
 }
 #git {
   animation-timing-function: linear;
   width: 60px;
-  //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 25s infinite;
+  animation: backend-git 35s infinite;
 }
 #umbraco {
   animation-timing-function: linear;
   width: 60px;
-  //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 35s infinite;
+  animation: backend-umbraco 35s infinite;
 }
 #xamarin {
   animation-timing-function: linear;
   width: 60px;
-  //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 30s infinite;
+  animation: backend-xamarin 35s infinite;
 }
 
 #sql {
   animation-timing-function: ease-in-out;
   width: 60px;
-  //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 25s infinite;
+  animation: backend-sql 35s infinite;
 }
 
 #strapi {
   animation-timing-function: ease-in-out;
   width: 60px;
-  //height: 50px;
   font-weight: bold;
   position: relative;
-  animation: backend 35s infinite;
+  animation: backend-strapi 35s infinite;
 }
 
-@keyframes backend {
+// @keyframes backend {
+//   from {
+//     left: 0px;
+//   }
+//   to {
+//     left: 450px;
+//   }
+// }
+@keyframes backend-c {
   from {
     left: 0px;
+  }
+  to {
+    left: 450px;
+  }
+}
+@keyframes backend-asp {
+  from {
+    left:50px;
+  }
+  to {
+    left:450px;
+  }
+}
+@keyframes backend-git {
+  from {
+    left: 80px;
+  }
+  to {
+    left: 450px;
+  }
+}
+@keyframes backend-umbraco {
+  from {
+    left: 120px;
+  }
+  to {
+    left: 450px;
+  }
+}
+@keyframes backend-xamarin {
+  from {
+    left: 160px;
+  }
+  to {
+    left: 450px;
+  }
+}
+@keyframes backend-sql {
+  from {
+    left: 200px;
+  }
+  to {
+    left: 450px;
+  }
+}
+@keyframes backend-strapi {
+  from {
+    left: 240px;
   }
   to {
     left: 450px;
@@ -209,22 +324,143 @@ align-content: flex-start;
     margin-left: 60%;
   }
 
-  @keyframes frontend {
-    from {
-      left: 0px;
-    }
-    to {
-      left: 50px;
-    }
-  }
+  // @keyframes front-end {
+  //   from {
+  //     left: 0px;
+  //   }
+  //   to {
+  //     left: 50px;
+  //   }
+  // }
 
-  @keyframes backend {
-    from {
-      left: 0px;
-    }
-    to {
-      left: 50px;
-    }
-  }
+  // @keyframes backend {
+  //   from {
+  //     left: 0px;
+  //   }
+  //   to {
+  //     left: 50px;
+  //   }
+  // }
     
+  @keyframes frontend-htmls  {
+    from{
+ left :0px;
+    }
+    to{
+ left :20px;
+    }
+}
+@keyframes frontend-css  {
+  from{
+left :0px;
+  }
+  to{
+left :20px;
+  }
+}
+@keyframes frontend-nuxt  {
+  from{
+left :0px;
+  }
+  to{
+left :20px;
+  }
+}
+@keyframes frontend-javascript  {
+  from{
+left :0px;
+  }
+  to{
+left :20px;
+  }
+}
+@keyframes frontend-sass  {
+  from{
+left :0px;
+  }
+  to{
+left :20px;
+  }
+}
+@keyframes frontend-vuejs  {
+  from{
+left :0px;
+  }
+  to{
+left :20px;
+  }
+}
+@keyframes frontend-wordpress  {
+  from{
+left :0px;
+  }
+  to{
+left :20px;
+  }
+}
+@keyframes frontend-bootstrapvue  {
+  from{
+left :0px;
+  }
+  to{
+left :20px;
+  }
+}
+
+@keyframes backend-c {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 20px;
+  }
+}
+@keyframes backend-asp {
+  from {
+    left:0px;
+  }
+  to {
+    left:20px;
+  }
+}
+@keyframes backend-git {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 20px;
+  }
+}
+@keyframes backend-umbraco {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@keyframes backend-xamarin {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 20px;
+  }
+}
+@keyframes backend-sql {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 20px;
+  }
+}
+@keyframes backend-strapi {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 20px;
+  }
+}
 }
