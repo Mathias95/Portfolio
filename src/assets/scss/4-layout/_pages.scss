@@ -73,3 +73,25 @@ float: right;
 		margin: 0;
 	}
 }
+
+@media screen and (max-width: 768px){
+	.section-slider {
+	
+		position: fixed;
+		top: 150px;
+		right: 3%;
+		z-index: 1000;
+		
+		:hover{
+			color:yellowgreen;
+			text-decoration: none;
+	
+		
+		}
+	
+	
+		
+	}
+	  
+	}
+
