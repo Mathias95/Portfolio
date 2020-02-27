@@ -45,7 +45,20 @@
     .profileimg-responsive{
       filter: opacity(0.2);
       width: 70%;
-     align-self: center;
+     //align-self: center;
+     padding-left: 15%;
     }
         
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* For portrait layouts only */
+  .profileimg-responsive{
+    filter: opacity(0.2);
+    width: 100%;
+   //align-self: center;
+   padding-left: 15%;
+   padding-top: 45%;
+  }
+  
+  }

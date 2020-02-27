@@ -322,6 +322,7 @@ align-content: flex-start;
 
   #cv{
     margin-left: 60%;
+    width: 100%;
   }
 
   // @keyframes front-end {
@@ -464,3 +465,16 @@ left :20px;
   }
 }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* For portrait layouts only */
+  #cv{
+   margin-top: 100%;
+    width: 100%;
+
+    img{
+      width: 100%;
+    }
+  }
+  
+  }

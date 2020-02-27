@@ -10,17 +10,17 @@
 //     width: 100%;
 // }
 
-.contacticons{
+.newcontacticons{
     padding-left: 10%;
     padding-top: 8%;
    
-    .img-responsive{
+    .newctimg-responsive{
         border-radius: 25%;
     }
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-      .contacticons{
+      .newcontacticons{
           width: 100%;
         display: flex;
             flex-wrap: wrap;

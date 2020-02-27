@@ -67,4 +67,31 @@
       height:auto;
   
     }
+      
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* For portrait layouts only */
+  .Projects{
+       
+    .col-lg-4 {
+      margin: 40px;
+    }
+
+        
+  }
+
+  .proimg-responsive{
+    width: 100%;
+    height: 120px;
+    
+
+  }
+
+  .mprojects{
+    padding-left:34%;
+    padding-top: 5%;
+   
+   }
+  
+  }
