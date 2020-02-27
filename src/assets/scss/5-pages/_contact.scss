@@ -1,76 +1,60 @@
 #Contact{
-  width: 100%;
-  
-    
+  width: 100%;  
 }
 
-// .contactform{
-//     width: 100%;
-// }
-
 .contacticons{
-    padding-left: 10%;
     padding-top: 8%;
-   
-    
-   
+
     .ctimg-responsive{
         border-radius: 25%;
         width: 100%;
-        
-
   }
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
       .contacticons{
           width: 100%;
-        
-           
             br {
                 display: none;
             }
-
             .ctimg-responsive{
               margin-top: 1%;
-              width: 50%;
-              margin-left: 100%;
            }   
-           
            .col-md-4{
           margin: 5px;
-         
           } 
         }
-        
-
+      
        #Contact{
-         padding-right: 4%;
          padding-top: 9%;
-         padding-left: 5%;
-         
        }
-
-       
      }
 
      @media (min-width: 768px) and (max-width: 1024px) {
       /* For portrait layouts only */
       #Contact{
         //padding-right: 4%;
-       margin-left: 8%;
         padding-top: 9%;
-       
-        
-      }
+			}
+			
       .contacticons{
-        margin-left: 11%;
         .ctimg-responsive{
           width: 100%;
         }
-       
       }
-     
-      }
-    
-    
+			}
+
+.icon-wrapper{
+	margin: 0 5px;
+}
+			
+.icon-container{
+	display: flex;
+	justify-content: center;
+}
+
+.form-button{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}

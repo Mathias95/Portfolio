@@ -1,54 +1,26 @@
 .Profile{
-    padding-left: 15%;
-    padding-right: 5%;
     border-radius: 5px;
-   
   }
-  .profileimg-responsive{
+  .profile-img{
     filter: opacity(0.2);
     pointer-events: none;
-    
+	}
 
-    
-  }
-  .profilecontent{
-    max-width:95%;
-
-    .overflow-hidden{
-      border: none;
-    }
-    
-    .no-gutters{
-      background-color:$primaryColor;
-    }
-    .card-text{
-      text-align: left;
-      font-size:1.2rem;
-      
-    }
-  }
+	.profile-text{
+		margin-bottom: 50px;
+	}
 
   @media screen and (max-width: 768px){
       .Profile{
         padding-top: 8%;
-        
       }
 
-      .profilecontent{
-      .card-text{
-        
-        font-size:0.9rem;
-        
-      }
-    }
-
-    .profileimg-responsive{
+    .profile-img{
       filter: opacity(0.2);
-      width: 70%;
-     //align-self: center;
-     padding-left: 15%;
-    }
-        
+			width: 55%;
+			display: flex;
+			margin: 0 auto;
+    }    
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -60,5 +32,10 @@
    padding-left: 15%;
    padding-top: 45%;
   }
-  
-  }
+}
+
+@media screen and (min-width: 1200px){
+	.profile-img{
+		width: 75%;
+	}
+}

@@ -17,14 +17,16 @@ width: 3%;
 float: right;
 }
 .section {
-	min-height: 768px;
+	//Fixing height issue for the sections
+	//height: 100vh;
+	//display: flex;
+	//justify-content: center;
+	//align-items: center;
+	min-height: 100vh;
 	padding-top: 9%;
-	
-	
 }
 
 .section-slider {
-	
 	position: fixed;
 	top: 300px;
 	right: 2%;
@@ -33,12 +35,7 @@ float: right;
 	:hover{
 		color:yellowgreen;
 		text-decoration: none;
-
-	
 	}
-
-
-	
 }
 
 .slider-nav{
@@ -49,13 +46,6 @@ float: right;
 .slider-link{
 	color:$whiteColor;
 	margin-bottom: 20px;
-
-	
-	
-
-	
-
-	
 }
 
 #Profile, #Skills, #Projects, #Contact {
@@ -67,12 +57,10 @@ float: right;
 
 @media screen and (min-width: 1200px){
 	.section {
-		min-height: 1000px;
 		position: relative;
 		text-align: center;
 		margin: 0;
 	}
-
 }
 
 @media screen and (max-width: 768px){
@@ -89,18 +77,11 @@ float: right;
 	
 		
 		}
-	
-	
-		
-	}
-	  
+	}  
 	}
 	@media (min-width: 768px) and (max-width: 1024px) {
 		/* For portrait layouts only */
 		.section {
-			min-height: 1024px;
 			padding-top: 9%;
-			
-			
 		}
-	  }
+	}
