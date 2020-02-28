@@ -5,7 +5,7 @@
       <b-row class="justify-content-center">
         <b-col cols="12" md="8" class="contactform">
           <form
-            name="contact" action="POST" data-netlify="true"
+            name="contact" method="POST" data-netlify="true"
             class="needs-validation" novalidate>
             <div>
               <b-form-input
@@ -13,7 +13,7 @@
                 type="text"
                 placeholder="First Name"
                 name="firstname"
-                value=""
+                id="firstname"
                 required
               ></b-form-input>
               <div class="invalid-feedback">
@@ -26,7 +26,7 @@
                 type="text"
                 placeholder="Last Name"
                 name="lastname"
-                value=""
+                id="lastname"
                 required
               ></b-form-input>
               <div class="invalid-feedback">
@@ -38,8 +38,8 @@
               <b-form-input
                 placeholder="E-mail"
                 type="email"
-                value=""
                 name="email"
+                id="email"
                 required
               ></b-form-input>
               <div class="invalid-feedback">
@@ -49,11 +49,10 @@
             </div>
             <div>
               <b-form-textarea
-                id="textarea-rows"
+                id="message"
                 placeholder="Message"
                 name="message"
                 rows="8"
-                value=""
                 required
               ></b-form-textarea>
               <div class="invalid-feedback">
