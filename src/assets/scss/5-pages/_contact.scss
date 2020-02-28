@@ -1,5 +1,15 @@
 #Contact{
-  width: 100%;  
+  width: 96%;  
+}
+.formheading{
+  text-align: left;
+  font-weight: bold;
+}
+.form-button{
+	margin-top: 30px;
+	display: flex;
+  justify-content: center;
+  
 }
 
 .contacticons{
@@ -20,9 +30,9 @@
             .ctimg-responsive{
               margin-top: 1%;
            }   
-           .col-md-4{
-          margin: 5px;
-          } 
+          //  .col-md-4{
+          // margin: 5px;
+          // } 
         }
       
        #Contact{
@@ -33,7 +43,6 @@
      @media (min-width: 768px) and (max-width: 1024px) {
       /* For portrait layouts only */
       #Contact{
-        //padding-right: 4%;
         padding-top: 9%;
 			}
 			
@@ -53,8 +62,3 @@
 	justify-content: center;
 }
 
-.form-button{
-	margin-top: 30px;
-	display: flex;
-	justify-content: center;
-}
