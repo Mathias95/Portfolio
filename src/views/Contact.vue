@@ -5,7 +5,7 @@
       <b-row class="justify-content-center">
         <b-col cols="12" md="8" class="contactform">
           <form
-            name="contact" method="POST"
+            name="contact" method="POST" data-netlify="true"
             class="needs-validation" novalidate>
             <div>
               <b-form-input
