@@ -5,6 +5,7 @@
       <b-row class="justify-content-center">
         <b-col cols="12" md="9" class="contactform">
           <form
+           @submit.prevent="handleSubmit"
             name="contact"
             method="POST"
             data-netlify="true"
@@ -13,6 +14,7 @@
           >
             <div>
               <b-form-input
+                v-model="form.firstname"
                 class="col-xs-4"
                 type="text"
                 placeholder="First Name"
@@ -27,6 +29,7 @@
             </div>
             <div>
               <b-form-input
+                v-model="form.lastname"
                 type="text"
                 placeholder="Last Name"
                 name="lastname"
@@ -40,6 +43,7 @@
             </div>
             <div>
               <b-form-input
+                v-model="form.email"
                 placeholder="E-mail"
                 type="email"
                 name="email"
@@ -53,6 +57,7 @@
             </div>
             <div>
               <b-form-textarea
+                v-model="form.message"
                 id="message"
                 placeholder="Message"
                 name="message"
@@ -115,32 +120,37 @@
 </template>
 
 <script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
-  window.addEventListener(
-    'load',
-    function () {
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.getElementsByClassName('needs-validation')
-      // Loop over them and prevent submission
-      // eslint-disable-next-line no-unused-vars
-      var validation = Array.prototype.filter.call(forms, function (form) {
-        form.addEventListener(
-          'submit',
-          function (event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault()
-              event.stopPropagation()
-            }
-            form.classList.add('was-validated')
-          },
-          false
-        )
-      })
-    },
-    false
-  )
-})()
+export default {
+  name: 'contact',
+  data: () => ({
+    form: {
+      firstname: '',
+      lastname: '',
+      email: '',
+      message: ''
 
+    }
+  }),
+  methods: {
+    encode (data) {
+      return Object.keys(data)
+        .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+        .join('&')
+    },
+    handleSubmit () {
+      fetch('/', {
+        method: 'post',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: this.encode({
+          'form-name': 'contact',
+          ...this.form
+        })
+      })
+        .then(() => console.log('Successfully Sent'))
+        .catch(e => console.error(e))
+    }
+  }
+}
 </script>
