@@ -35,6 +35,12 @@
   }
 }
 
+@media screen and (min-width: 992px) {
+	.profile-text{
+		margin-bottom: 0px;
+	}
+}
+
 @media screen and (min-width: 1200px){
 	.profile-img{
 		width: 75%;

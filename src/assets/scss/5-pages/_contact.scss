@@ -1,6 +1,7 @@
-#Contact{
-  width: 96%;  
+.contact-wrapper{
+	width: 100%;
 }
+
 .formheading{
   text-align: left;
   font-weight: bold;
@@ -36,10 +37,6 @@
      }
 
      @media (min-width: 768px) and (max-width: 1024px) {
-      /* For portrait layouts only */
-      #Contact{
-        padding-top: 7%;
-			}
 			
       .contacticons{
         .ctimg-responsive{
@@ -49,11 +46,20 @@
 			}
 
 .icon-wrapper{
-	margin: 0 5px;
+	margin: 5px;
+
+	@media screen and (min-width: 992px){
+		margin: 10px;
+	}
+
+	@media screen and (min-width: 1200px){
+		margin: 20px;
+	}
 }
 			
 .icon-container{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 

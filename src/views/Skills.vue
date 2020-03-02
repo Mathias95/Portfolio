@@ -1,5 +1,5 @@
 <template>
-  <div class="skillspage container">
+  <div class="skillspage">
     <b-container class="skillscontainer">
   <b-row>
     <b-col cols="6"  md="5" id="front-end" >
