@@ -1,9 +1,19 @@
 #Contact{
-  width: 100%;  
+	
+}
+.formheading{
+  text-align: left;
+  font-weight: bold;
+}
+.form-button{
+	margin-top: 15px;
+	display: flex;
+  justify-content: center;
+  
 }
 
 .contacticons{
-    padding-top: 8%;
+    padding-top: 7%;
 
     .ctimg-responsive{
         border-radius: 25%;
@@ -14,27 +24,21 @@
 @media (min-width: 320px) and (max-width: 768px) {
       .contacticons{
           width: 100%;
-            br {
-                display: none;
-            }
             .ctimg-responsive{
               margin-top: 1%;
            }   
-           .col-md-4{
-          margin: 5px;
-          } 
+          
         }
       
        #Contact{
-         padding-top: 9%;
+         padding-top: 7%;
        }
      }
 
      @media (min-width: 768px) and (max-width: 1024px) {
       /* For portrait layouts only */
       #Contact{
-        //padding-right: 4%;
-        padding-top: 9%;
+        padding-top: 7%;
 			}
 			
       .contacticons{
@@ -62,8 +66,3 @@
 	flex-wrap: wrap;
 }
 
-.form-button{
-	margin-top: 30px;
-	display: flex;
-	justify-content: center;
-}

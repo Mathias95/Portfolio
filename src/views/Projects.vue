@@ -30,7 +30,7 @@
             /></a>
           </div>
 
-          <div class="project-hovereffect">
+          <div class="project-hovereffect" v-animate-css.hover="'bounce'">
             <a
               class="project-link" href="https://github.com/theep1891/InventoryManagement"
               target="_blank"
