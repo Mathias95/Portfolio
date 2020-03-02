@@ -2,7 +2,7 @@
   <div>
     <b-container id="Contact">
       <b-row class="justify-content-center">
-        <b-col cols="12" md="8" class="contactform">
+        <b-col cols="12" md="9" class="contactform">
           <form
             action="POST"
             data-netlify="true"
@@ -70,7 +70,7 @@
           </form>
         </b-col>
         <!-- Break contact form and contact icon -->
-        <b-col cols="12" md="4" class="contacticons">
+        <b-col cols="12" md="3" class="contacticons">
 					<div class="icon-container">
 						<div class="icon-wrapper">
 							<a href="https://www.facebook.com/theep1891" target="_blank"

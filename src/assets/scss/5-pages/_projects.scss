@@ -23,7 +23,8 @@
 	}
 	
 	.project-hovereffect{
-		margin-bottom: 30px;
+		position: relative;
+		margin-bottom: 25px; 
 	}
 
   @media screen and (max-width: 768px){
@@ -36,14 +37,18 @@
     }    
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 768px){
 	.projects-wrapper{
 		display: flex;
 		flex-wrap: wrap;
 	}
 
 	.project-hovereffect{
-		width: 50%;
+		width: 48%;
+
+		&:nth-child(1), &:nth-child(3){
+			margin-right: 25px;
+		}
 	}
 }
 
@@ -71,4 +76,9 @@
 	.mprojects{
 		margin-top: 0px;
 	}
+}
+
+.project-link{
+	display: flex;
+	height: 100%;
 }

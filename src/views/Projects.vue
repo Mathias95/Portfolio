@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12 col-xl-9 projects-wrapper">
           <div class="project-hovereffect" v-animate-css.hover="'bounce'">
-            <a href="https://mfdminiproject.netlify.com/" target="_blank"
+            <a class="project-link" href="https://mfdminiproject.netlify.com/" target="_blank"
               ><img
                 class="proimg-responsive"
                 src="../assets/img/mfdminiproject.jpg"
@@ -13,7 +13,7 @@
           </div>
 
           <div class="project-hovereffect" v-animate-css.hover="'bounce'">
-            <a href="http://frontend.prozero.dk/" target="_blank"
+            <a class="project-link" href="http://frontend.prozero.dk/" target="_blank"
               ><img
                 class="proimg-responsive"
                 src="../assets/img/tuco.jpg"
@@ -22,7 +22,7 @@
           </div>
 
           <div class="project-hovereffect" v-animate-css.hover="'bounce'">
-            <a href="https://prozero.dk/" target="_blank"
+            <a class="project-link" href="https://prozero.dk/" target="_blank"
               ><img
                 class="proimg-responsive"
                 src="../assets/img/prozero.jpg"
@@ -32,7 +32,7 @@
 
           <div class="project-hovereffect">
             <a
-              href="https://github.com/theep1891/InventoryManagement"
+              class="project-link" href="https://github.com/theep1891/InventoryManagement"
               target="_blank"
               ><img
                 class="proimg-responsive"

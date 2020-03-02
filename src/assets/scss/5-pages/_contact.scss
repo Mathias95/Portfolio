@@ -45,12 +45,21 @@
 			}
 
 .icon-wrapper{
-	margin: 0 5px;
+	margin: 5px;
+
+	@media screen and (min-width: 992px){
+		margin: 10px;
+	}
+
+	@media screen and (min-width: 1200px){
+		margin: 20px;
+	}
 }
 			
 .icon-container{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .form-button{
