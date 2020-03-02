@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contact-wrapper">
     <b-container id="Contact">
       <h1 class="formheading">Contact Me</h1>
       <b-row class="justify-content-center">

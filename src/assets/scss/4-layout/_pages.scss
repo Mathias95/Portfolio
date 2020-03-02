@@ -18,12 +18,23 @@ float: right;
 }
 .section {
 	//Fixing height issue for the sections
-	//height: 100vh;
-	//display: flex;
-	//justify-content: center;
-	//align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	min-height: 100vh;
-	padding-top: 9%;
+	padding-top: 58px;
+
+	@media screen and (min-width: 768px){
+		padding-top: 64px;
+	}
+
+	@media screen and (min-width: 992px){
+		padding-top: 76px;
+	}
+
+	@media screen and (min-width: 1200px){
+		padding-top: 84px;
+	}
 }
 
 .section-slider {
@@ -78,10 +89,4 @@ float: right;
 		
 		}
 	}  
-	}
-	@media (min-width: 768px) and (max-width: 1024px) {
-		/* For portrait layouts only */
-		.section {
-			padding-top: 9%;
-		}
-	}
+}
