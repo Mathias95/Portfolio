@@ -7,15 +7,14 @@ body, html {
 }
 
 #mainpage{
-	width: 97%;
-	float: left;
-
+	width: 95%;
 }
 
 #sidebar{
 width: 3%;
 float: right;
 }
+
 .section {
 	//Fixing height issue for the sections
 	display: flex;
@@ -85,8 +84,6 @@ float: right;
 		:hover{
 			color:yellowgreen;
 			text-decoration: none;
-	
-		
 		}
 	}  
 }

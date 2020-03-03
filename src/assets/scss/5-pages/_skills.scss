@@ -1,19 +1,14 @@
 .skills-wrapper{
 	display: flex;
 	align-items: flex-start;
+	margin-bottom: 30px;
 }
 
-.skills-frontend, .skills-backend{
-	display: flex;
-	flex-wrap: wrap;
-	width: 50%;
-}
 
 .skills-card{
 	background-color: $primaryColor;
 	border: none;
 	filter: opacity(40%);
-	margin: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -22,35 +17,19 @@
 		transform: rotateY(20deg);
 	}
 
+	&:not(:last-child){
+		margin-bottom: 20px;
+	}
+
+	.skills-icon{
+		width: 100px;
+	}
+
 	.skills-text{
 		margin-bottom: 0px;
 		text-transform: uppercase;
 		text-align: center;
 		margin-top: 10px;
-	}
-}
-
-@media screen and (min-width: 576px){
-	.skills-card{
-		width: 33%;
-	}
-}
-
-@media screen and (min-width: 768px){
-	.skills-card{
-		width: 38%;
-	}
-}
-
-@media screen and (min-width: 992px){
-	.skills-card{
-		width: 25%;
-	}
-}
-
-@media screen and (min-width: 1200px){
-	.skills-card{
-		width: 18%;
 	}
 }
 
@@ -68,7 +47,18 @@
   
 }
 
+.cv-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #cv{
-  margin-top: 200px;
-  margin-left: 50px;
+  width: 80px;
+}
+
+@media screen and (min-width: 768px){
+	.skills-wrapper{
+		margin-bottom: 0px;
+	}
 }
