@@ -38,8 +38,11 @@ float: right;
 
 .section-slider {
 	position: fixed;
-	top: 300px;
-	right: 2%;
+	top: 0;
+	bottom: 0;
+	right: 3%;
+	display: flex;
+	align-items: center;
 	z-index: 1000;
 	
 	:hover{
@@ -75,11 +78,6 @@ float: right;
 
 @media screen and (max-width: 768px){
 	.section-slider {
-	
-		position: fixed;
-		top: 150px;
-		right: 3%;
-		z-index: 1000;
 		
 		:hover{
 			color:yellowgreen;
